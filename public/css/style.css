@@ -1,45 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Ruda&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ruda&display=swap");
 :root {
-   --notrevert: #69AF07;
-   --notrebrown: #483B33;
-   --notreMarronClair: #9F8447;
-   --notreLightBackground: #F6F3EC;
+  --notrevert: #69af07;
+  --notrebrown: #483b33;
+  --notreMarronClair: #9f8447;
+  --notreLightBackground: #f6f3ec;
 }
 
 ul a {
-   color: var(--notreMarronClair)!important;
+  color: var(--notreMarronClair) !important;
 }
 
 ul a:hover {
-   color: var(--notrevert)!important;
-   transform: scale(1.1);
+  color: var(--notrevert) !important;
+  transform: scale(1.1);
 }
 
-nav{
-   margin-bottom: 1rem;
+nav {
+  margin-bottom: 1rem;
 }
 
 #logoHeader_Samm {
-   width: 5vw;
-   height: 8vh;
+  width: 70px;
+  height: 50px;
 }
 
 .LogoForm_Samm {
-   text-align: center;
+  text-align: center;
 }
 
 h1:hover {
-   transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 h1 {
-   font-family: 'Ruda', sans-serif;
-   text-align: center;
-   color: var(--notrevert);
+  font-family: "Ruda", sans-serif;
+  text-align: center;
+  color: var(--notrevert);
 }
 
 * {
-   font-family: 'Ruda', sans-serif;
+  font-family: "Ruda", sans-serif;
 }
 
 /* 
@@ -48,94 +48,104 @@ h1 {
 } */
 
 .LogoResaux_Samm {
-   width: 45px;
-   height: 45px;
+  width: 45px;
+  height: 45px;
 }
 
-#imgLogin{
-   width: 30vh;
-   height: auto;
+#imgLogin {
+  width: 30vh;
+  height: auto;
 }
 
 footer {
-   padding-top: 1rem;
+  padding-top: 1rem;
 }
 
 a {
-   text-decoration: none;
+  text-decoration: none;
 }
 
-#cookiealert{
-   position: absolute;
-   bottom: 0;
-   right: 0;
-   left: 0;
-   height: 80px;
-   padding: 10px;
+#cookiealert {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 80px;
+  padding: 10px;
 }
 
-.form-SAMM{
-   width : 50vw; 
-   height: auto;
-   margin: auto;
-} 
+.form-SAMM {
+  width: 50vw;
+  height: auto;
+  margin: auto;
+}
 
-.comment{
-   border: 1px solid var(--notrevert);
-   border-radius: 5px;
-   margin: 5px 0;
+.comment {
+  border: 1px solid var(--notrevert);
+  border-radius: 5px;
+  margin: 5px 0;
 }
 
 .btn-vert-connexion_Samm {
-   background-color: var(--notrevert);
-   color: var(--notreLightBackground);
+  background-color: var(--notrevert);
+  color: var(--notreLightBackground);
 }
 
-.btn-vert-connexion_Samm:hover{
-   background-color: var(--notrevert);
-   color: var(--notrebrown);
-   transform: scale(1.1);
+.btn-vert-connexion_Samm:hover {
+  background-color: var(--notrevert);
+  color: var(--notrebrown);
+  transform: scale(1.1);
 }
 
 .btn-marron_Samm {
-   background-color: var(--notreMarronClair);
-   color: var(--notreLightBackground);
+  background-color: var(--notreMarronClair);
+  color: var(--notreLightBackground);
 }
-.btn-marron_Samm:hover{
-   background-color: var(--notreMarronClair);
-   color: var(--notrevert);
-   transform: scale(1.1);
+.btn-marron_Samm:hover {
+  background-color: var(--notreMarronClair);
+  color: var(--notrevert);
+  transform: scale(1.1);
 }
-
 
 .btn-vert-creation_Samm {
-   background-color: white!important;
-   border: solid var(--notrevert);
-   color: var(--notrebrown);
-   text-decoration: none;
+  background-color: white !important;
+  border: solid var(--notrevert);
+  color: var(--notrebrown);
+  text-decoration: none;
 }
 
-.card:hover{
-   transform: scale(1.1);
-}
-
-.btn-vert-creation_Samm:hover {
-   color: var(--notreLightBackground);
+.card:hover {
+  transform: scale(1.1);
 }
 
 .btn-vert-creation_Samm:hover {
-   background-color: var(--notrevert)!important;
+  color: var(--notreLightBackground);
 }
 
-aside{
-   width: 20vw;
+.btn-vert-creation_Samm:hover {
+  background-color: var(--notrevert) !important;
 }
 
-@media screen and (max-width: 900px){
-   
-   .form-SAMM{
-      width : 95vw; 
-      height: auto;
-      margin: auto;
-   } 
+aside {
+  width: 20vw;
+}
+
+/* .photo-container{
+   width: 0vw;
+} */
+.photo-container img {
+  max-width: 1100px;
+  margin: 20px auto;
+}
+
+@media screen and (max-width: 900px) {
+  .form-SAMM {
+    width: 95vw;
+    height: auto;
+    margin: auto;
+  }
+  #logoHeader_Samm {
+    width: 50px;
+    height: 35px;
+  }
 }

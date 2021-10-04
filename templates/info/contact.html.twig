@@ -1,7 +1,24 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Contact{% endblock %}
+{% block title %}Contactez-nous{% endblock %}
+
 
 {% block body %}
+<div class="container">
+<h3>Contactez-nous</h3>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Adresse mail</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Entrer votre texte</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+</div>
+<div class="d-grid gap-2 col-6 mx-auto">
+    <a class="btn btn-success" href="#" role="button">Envoyer</a>
+</div>
+
+
 
 {% endblock %}
